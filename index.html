@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Aaron Bailey</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-    background-image: url('http://www.w3schools.com/w3images/forestbridge.jpg');
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-}
+  html, body {height: 100%;}
+  body {background: white; padding: 80px 80px;} 
+  a:link { color: red; text-decoration: none}
+  a:active { color: red; text-decoration: none }
+  a:visited { color: black; text-decoration: none }
+  a:hover { color: red; text-decoration: underline }
+  h2 {font-size: 100px; font-family: helvetica, arial; line-height: 103px; margin-top: 60px; opacity: 0.2; font-weight: 600;}
+  h3 {font-size: 36px; font-family: helvetica, arial;}
+  h4 {font-size: 18px; font-family: helvetica, arial; line-height: 15px; margin-top: -85px; margin-bottom: 85px;}
+  div.margin {margin-left: 50px; margin-top: -25px}
+
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen and (max-width: 700px) {
+    h2 {font-size: 75px; font-family: helvetica, arial; line-height: 80px; margin-top: 60px; opacity: 0.2; font-weight: 600;}
+    h3 {font-size: 36px; font-family: helvetica, arial;}
+    h4 {font-size: 18px; font-family: helvetica, arial; line-height: 15px; margin-top: -85px; margin-bottom: 85px;}
+      body {background: white; padding: 10% 10%;} 
+
+  }
 </style>
 <body>
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    Logo
+<div>
+  <div>
+    <img style="width: 100px; height: 100px;" src="images/AaronBailey_Mark.png">
   </div>
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">35 days left</p>
-  </div>
-  <div class="w3-display-bottomleft w3-padding-large">
-    Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  <div style="position: fixed; bottom: 110px">
+    <h2>Coming Soon</h2>
   </div>
 </div>
 
